@@ -1,6 +1,7 @@
 // Changing the day in HTML below
 
 // function today(){
+    
 // let month = new Date().getMonth;
 // let day = new Date().getDay;
 // let year = new Date().getFullYear;
