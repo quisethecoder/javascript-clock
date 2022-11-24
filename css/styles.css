@@ -27,6 +27,10 @@ button:hover{
     box-shadow: 0 15px 15px #4FA095;
 }
 
+/* .click-me{
+    display: flex;
+} */
+
 .date{
     color: #153462;
     font-family: 'Sono', sans-serif;
@@ -38,6 +42,6 @@ button:hover{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 75px;
-    margin: 25px 0px 25px 600px;
+    margin: 25px 0px 25px 540px;
 }
 
