@@ -15,5 +15,12 @@ function getDay(){
 getDay();
 
 function getTime(){
-    let 
+    let currentDate = new Date();
+    let hour = currentDate.getHours();
+    let minute = currentDate.getMinutes();
+    let seconds = currentDate.getSeconds();
+
+    time.innerHTML= hour + ":" + minute + ":" + seconds;
 }
+
+setInterval(getTime,1000);
