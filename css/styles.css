@@ -27,11 +27,17 @@ button:hover{
     box-shadow: 0 15px 15px #4FA095;
 }
 
-h2{
+.date{
     color: #153462;
     font-family: 'Sono', sans-serif;
-    font-size: 150px;
-    margin: 0px 525px 0px;
+    font-size: 100px;
+    margin: 0px 0px 0px 410px;
 }
 
+.clock{
+    color: #153462;
+    font-family: 'Sono', sans-serif;
+    font-size: 75px;
+    margin: 25px 0px 25px 600px;
+}
 
