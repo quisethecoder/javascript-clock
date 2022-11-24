@@ -22,3 +22,12 @@
 // let clock = hour + ":" + minute + ":" + seconds;
 
 // document.getElementById("clock").innerHTML = clock
+
+
+let currentDate = new Date();
+
+const day = document.querySelector(".date");
+const time = document.querySelector(".clock");
+
+const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
