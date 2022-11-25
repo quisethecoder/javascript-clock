@@ -1,9 +1,14 @@
 body{
     
     background-color: #BAD1C2;
+    
 }
 
-h1{
+.glue{
+    justify-content: center;
+}
+
+/* h1{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-weight: 200;
@@ -31,7 +36,7 @@ button:hover{
     display: flex;
 } */
 
-.date{
+/* .date{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 100px;
@@ -44,4 +49,4 @@ button:hover{
     font-size: 75px;
     margin: 25px 0px 25px 540px;
 }
-
+ */ 
