@@ -28,6 +28,7 @@ function getTime(){
 setInterval(getTime,1000);
 
 // 12 hour clock code
+
 document.getElementById("ampm").addEventListener("click", function(){
     const ap = document.getElementById("ampm");
 
