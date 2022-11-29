@@ -41,8 +41,4 @@ document.getElementById("dm").addEventListener("click", function() {
         css.setAttribute("href", "./css/styles.css");
         dm.innerHTML= "Dark Mode"
     }
-
-
-
-
 });
