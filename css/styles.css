@@ -28,6 +28,11 @@ button:hover{
     box-shadow: 0 15px 15px #4FA095;
 }
 
+#dm{
+    padding-left: 75px;
+    padding-right: 70px;
+}
+
 .date{
     color: #153462;
     font-family: 'Sono', sans-serif;

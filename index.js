@@ -1,3 +1,5 @@
+// Date and time code
+
 let currentDate = new Date();
 
 const date = document.querySelector(".date");
@@ -24,3 +26,23 @@ function getTime(){
 }
 
 setInterval(getTime,1000);
+
+
+// dark mode button code
+
+document.getElementById("dm").addEventListener("click", function() {
+    const css = document.getElementById("cssfile");
+    const dm = document.getElementById("dm");
+
+    if(dm.innerHTML == "Dark Mode"){
+        css.setAttribute("href", "./css/darkmode.css");
+        dm.innerHTML= "Light Mode"
+    }else{
+        css.setAttribute("href", "./css/styles.css");
+        dm.innerHTML= "Dark Mode"
+    }
+
+
+
+
+});
