@@ -27,6 +27,20 @@ function getTime(){
 
 setInterval(getTime,1000);
 
+// 12 hour clock code
+document.getElementById("ampm").addEventListener("click", function(){
+    const ap = document.getElementById("ampm");
+
+    if(ap.innerHTML == "Switch To 12 Hour Clock"){
+        time.innerHTML= new Date().toLocaleTimeString;
+        ap.innerHTML= "Switch To Military Time";
+    } else{
+        time.innerHTML= hour + ":" + minute + ":" + seconds;
+        ap.innerHTML= "Switch to 12 Hour Clock"
+    }
+});
+
+
 
 // dark mode button code
 
@@ -36,9 +50,9 @@ document.getElementById("dm").addEventListener("click", function() {
 
     if(dm.innerHTML == "Dark Mode"){
         css.setAttribute("href", "./css/darkmode.css");
-        dm.innerHTML= "Light Mode"
+        dm.innerHTML= "Light Mode";
     }else{
         css.setAttribute("href", "./css/styles.css");
-        dm.innerHTML= "Dark Mode"
+        dm.innerHTML= "Dark Mode";
     }
 });
