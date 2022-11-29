@@ -1,16 +1,15 @@
 body{
-    
     background-color: #BAD1C2;
-    
+    margin: 0px;
 }
 
 
-/* h1{
+ h1{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-weight: 200;
     font-size: 100px;
-    margin: 0px 205px 20px;
+    margin: 0px 180px 20px;
 }
 
 button{
@@ -21,7 +20,7 @@ button{
     background-color: #F6F6C9;
     border-radius: 28px;
     padding: 10px 20px 10px 20px;
-    margin: 20px 512.5px 0px;
+    margin: 20px 500px 0px;
 }
 
 button:hover{
@@ -29,21 +28,28 @@ button:hover{
     box-shadow: 0 15px 15px #4FA095;
 }
 
-/* .click-me{
-    display: flex;
-} */
-
-/* .date{
+.date{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 100px;
-    margin: 0px 0px 0px 410px;
+    margin: 0px 0px 0px 350px;
 }
 
 .clock{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 75px;
-    margin: 25px 0px 25px 540px;
+    margin: 25px 0px 25px 490px;
 }
- */ 
+  
+.footer{
+    background-color: #153462;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+p{
+    color: aliceblue;
+    margin-left: 600px;
+}
