@@ -16,16 +16,16 @@ function getDay(){
 
 getDay();
 
-function getTime(){
-    let currentDate = new Date();
-    let hour = currentDate.getHours();
-    let minute = currentDate.getMinutes();
-    let seconds = currentDate.getSeconds();
+// function getTime(){
+//     let currentDate = new Date();
+//     let hour = currentDate.getHours();
+//     let minute = currentDate.getMinutes();
+//     let seconds = currentDate.getSeconds();
 
-    time.innerHTML= hour + ":" + minute + ":" + seconds;
-}
+//     time.innerHTML= hour + ":" + minute + ":" + seconds;
+// }
 
-setInterval(getTime,1000);
+// setInterval(getTime,1000);
 
 // 12 hour clock code
 
@@ -70,16 +70,8 @@ document.getElementById("ampm").addEventListener("click", function(){
         
 
     } else{
-        function test(){
-        let currentDate = new Date();
-        let hour = currentDate.getHours();
-        let minute = currentDate.getMinutes();
-        let seconds = currentDate.getSeconds();
-    
-        time.innerHTML = hour + ":" + minute + ":" + seconds;
-        }
-
-        setInterval(test,1000);
+       
+        
 
 
         ap.innerHTML= "Switch To 12 Hour Clock"
