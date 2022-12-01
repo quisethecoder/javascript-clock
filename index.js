@@ -58,8 +58,6 @@ document.getElementById("ampm").addEventListener("click", function(){
 
         time.innerHTML= hour + ":" + minute + ":" + seconds + " " + endingOfClock;
 
-        setInterval(time.innerHTML,1000);
-
 
         ap.innerHTML= "Switch To Military Time";
     } else if(ap.innerHTML == "Switch To Military Time" ){
