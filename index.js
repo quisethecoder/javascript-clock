@@ -16,16 +16,16 @@ function getDay(){
 
 getDay();
 
-function getTime(){
-    let currentDate = new Date();
-    let hour = currentDate.getHours();
-    let minute = currentDate.getMinutes();
-    let seconds = currentDate.getSeconds();
+// function getTime(){
+//     let currentDate = new Date();
+//     let hour = currentDate.getHours();
+//     let minute = currentDate.getMinutes();
+//     let seconds = currentDate.getSeconds();
 
-    time.innerHTML= hour + ":" + minute + ":" + seconds;
-}
+//     time.innerHTML= hour + ":" + minute + ":" + seconds;
+// }
 
-setInterval(getTime,1000);
+// setInterval(getTime,1000);
 
 // 12 hour clock code
 
@@ -60,7 +60,8 @@ document.getElementById("ampm").addEventListener("click", function(){
 
 
         ap.innerHTML= "Switch To Military Time";
-    } else if(ap.innerHTML == "Switch To Military Time" ){
+
+    } if(ap.innerHTML == "Switch To Military Time"){
         
         let currentDate = new Date();
     let hour = currentDate.getHours();
