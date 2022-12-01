@@ -16,16 +16,16 @@ function getDay(){
 
 getDay();
 
-// function getTime(){
-//     let currentDate = new Date();
-//     let hour = currentDate.getHours();
-//     let minute = currentDate.getMinutes();
-//     let seconds = currentDate.getSeconds();
+function getTime(){
+    let currentDate = new Date();
+    let hour = currentDate.getHours();
+    let minute = currentDate.getMinutes();
+    let seconds = currentDate.getSeconds();
 
-//     time.innerHTML= hour + ":" + minute + ":" + seconds;
-// }
+    time.innerHTML= hour + ":" + minute + ":" + seconds;
+}
 
-// setInterval(getTime,1000);
+setInterval(getTime,1000);
 
 // 12 hour clock code
 
@@ -33,6 +33,9 @@ document.getElementById("ampm").addEventListener("click", function(){
     const ap = document.getElementById("ampm");
 
     if(ap.innerHTML == "Switch To 12 Hour Clock"){
+      
+        function anotherTime(){
+
         let currentDate = new Date();
         let hour = currentDate.getHours();
         let minute = currentDate.getMinutes();
@@ -56,24 +59,30 @@ document.getElementById("ampm").addEventListener("click", function(){
             seconds = "0" + minute;
         }
 
-        time.innerHTML= hour + ":" + minute + ":" + seconds + " " + endingOfClock;
+       time.innerHTML = hour + ":" + minute + ":" + seconds + " " + endingOfClock;
+    }
 
+    setInterval(anotherTime,1000);
 
+       
         ap.innerHTML= "Switch To Military Time";
 
-    } if(ap.innerHTML == "Switch To Military Time"){
         
+
+    } else{
+        function test(){
         let currentDate = new Date();
-    let hour = currentDate.getHours();
-    let minute = currentDate.getMinutes();
-    let seconds = currentDate.getSeconds();
+        let hour = currentDate.getHours();
+        let minute = currentDate.getMinutes();
+        let seconds = currentDate.getSeconds();
+    
+        time.innerHTML = hour + ":" + minute + ":" + seconds;
+        }
 
-    time.innerHTML= hour + ":" + minute + ":" + seconds;
+        setInterval(test,1000);
 
 
-
-
-        ap.innerHTML= "Switch to 12 Hour Clock"
+        ap.innerHTML= "Switch To 12 Hour Clock"
     }
 });
 
