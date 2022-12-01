@@ -33,10 +33,47 @@ document.getElementById("ampm").addEventListener("click", function(){
     const ap = document.getElementById("ampm");
 
     if(ap.innerHTML == "Switch To 12 Hour Clock"){
-        time.innerHTML= new Date().toLocaleTimeString;
+        let currentDate = new Date();
+        let hour = currentDate.getHours();
+        let minute = currentDate.getMinutes();
+        let seconds = currentDate.getSeconds();
+        let endingOfClock = "AM"
+
+        if(hour == 0){
+            hour = 12;
+        }
+        if(hour > 12){
+            hour = hour - 12;
+            endingOfClock = "PM"
+        }
+        if(hour < 10){
+            hour = "0" + hour;
+        }
+        if(minute < 10){
+            minute = "0" + minute;
+        }
+        if(seconds < 10){
+            seconds = "0" + minute;
+        }
+
+        time.innerHTML= hour + ":" + minute + ":" + seconds + " " + endingOfClock;
+
+        setInterval(time.innerHTML,1000);
+
+
         ap.innerHTML= "Switch To Military Time";
-    } else{
-        time.innerHTML= hour + ":" + minute + ":" + seconds;
+    } else if(ap.innerHTML == "Switch To Military Time" ){
+        
+        let currentDate = new Date();
+    let hour = currentDate.getHours();
+    let minute = currentDate.getMinutes();
+    let seconds = currentDate.getSeconds();
+
+    time.innerHTML= hour + ":" + minute + ":" + seconds;
+
+
+
+
         ap.innerHTML= "Switch to 12 Hour Clock"
     }
 });
