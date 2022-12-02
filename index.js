@@ -16,6 +16,8 @@ function getDay(){
 
 getDay();
 
+// setInterval(getTime,1000);
+
 // function getTime(){
 //     let currentDate = new Date();
 //     let hour = currentDate.getHours();
@@ -25,7 +27,7 @@ getDay();
 //     time.innerHTML= hour + ":" + minute + ":" + seconds;
 // }
 
-// setInterval(getTime,1000);
+    
 
 // 12 hour clock code
 
@@ -34,48 +36,55 @@ document.getElementById("ampm").addEventListener("click", function(){
 
     if(ap.innerHTML == "Switch To 12 Hour Clock"){
       
-        function anotherTime(){
+        setInterval(anotherTime,1000)
 
-        let currentDate = new Date();
-        let hour = currentDate.getHours();
-        let minute = currentDate.getMinutes();
-        let seconds = currentDate.getSeconds();
-        let endingOfClock = "AM"
+       function anotherTime(){
+
+        const currentDate = new Date();
+        const hour = currentDate.getHours();
+        const minute = currentDate.getMinutes();
+        const seconds = currentDate.getSeconds();
+        const endingOfClock = "AM"
 
         if(hour == 0){
             hour = 12;
         }
-        if(hour > 12){
-            hour = hour - 12;
-            endingOfClock = "PM"
-        }
         if(hour < 10){
             hour = "0" + hour;
         }
-        if(minute < 10){
+       if(hour > 12){
+            hour = hour - 12;
+            endingOfClock = "PM"
+        }
+       if(minute < 10){
             minute = "0" + minute;
         }
         if(seconds < 10){
             seconds = "0" + minute;
-        }
+        } 
+       
 
-       time.innerHTML = hour + ":" + minute + ":" + seconds + " " + endingOfClock;
+       time.innerHTML = hour + ":" + minute + ":" + seconds + endingOfClock;
+       ap.innerHTML= "Switch To Military Time";
+       
     }
 
-    setInterval(anotherTime,1000);
+    } else{ setInterval(getTime,1000);
 
-       
-        ap.innerHTML= "Switch To Military Time";
+        getTime();
+        function getNewTime(){
+            let currentDate = new Date();
+            let hour = currentDate.getHours();
+            let minute = currentDate.getMinutes();
+            let seconds = currentDate.getSeconds();
+            
 
-        
 
-    } else{
-       
-        
-
-
-        ap.innerHTML= "Switch To 12 Hour Clock"
+            time.innerHTML= hour + ":" + minute + ":" + seconds;
+            ap.innerHTML= "Switch to 12 Hour Clock"
+        }   
     }
+
 });
 
 
