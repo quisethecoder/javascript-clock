@@ -69,9 +69,8 @@ document.getElementById("ampm").addEventListener("click", function(){
        
     }
 
-    } else{ setInterval(getTime,1000);
+    } else{ setInterval(getNewTime,1000);
 
-        getTime();
         function getNewTime(){
             let currentDate = new Date();
             let hour = currentDate.getHours();
