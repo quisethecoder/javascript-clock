@@ -16,16 +16,16 @@ function getDay(){
 
 getDay();
 
-// setInterval(getTime,1000);
+setInterval(getTime,1000);
 
-// function getTime(){
-//     let currentDate = new Date();
-//     let hour = currentDate.getHours();
-//     let minute = currentDate.getMinutes();
-//     let seconds = currentDate.getSeconds();
+function getTime(){
+    let currentDate = new Date();
+    let hour = currentDate.getHours();
+    let minute = currentDate.getMinutes();
+    let seconds = currentDate.getSeconds();
 
-//     time.innerHTML= hour + ":" + minute + ":" + seconds;
-// }
+    time.innerHTML= hour + ":" + minute + ":" + seconds;
+}
 
     
 
