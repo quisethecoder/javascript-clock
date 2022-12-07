@@ -69,7 +69,7 @@ document.getElementById("ampm").addEventListener("click", function(){
        
     }
 
-    } else{ setInterval(getNewTime,1000);
+    } else{setInterval(getNewTime,1000);
 
         function getNewTime(){
             let currentDate = new Date();
