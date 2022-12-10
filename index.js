@@ -22,7 +22,7 @@ let f = twelvehour;
 f();
 function twelvehour() {
   var dat = new Date();
-  dat.setHours(14); // for test
+  dat.setHours(12); 
   var h = dat.getHours()
   var m = dat.getMinutes()
   var s = dat.getSeconds()
@@ -35,7 +35,7 @@ function twelvehour() {
 
 function tfourhour() {
   var dat1 = new Date();
-  dat1.setHours(14); // for test
+  dat1.setHours(12); 
   var h1 = dat1.getHours()
   var m1 = dat1.getMinutes()
   var s1 = dat1.getSeconds()

@@ -1,6 +1,18 @@
 body{
     background-color: #BAD1C2;
+    height: 100%;
     margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    min-height: 100%;
+}
+
+.main{
+    overflow: auto;
+    padding-bottom: 300px;
+    
 }
 
  h1{
@@ -19,8 +31,7 @@ button{
     font-size: 40px;
     background-color: #F6F6C9;
     border-radius: 28px;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 500px 0px;
+    
 }
 
 button:hover{
@@ -30,8 +41,10 @@ button:hover{
 
 #dm{
     padding-left: 75px;
-    padding-right: 70px;
+    padding-right: 75px;
 }
+
+
 
 .date{
     color: #153462;
@@ -49,11 +62,12 @@ button:hover{
     margin-bottom: 20px;
 }
   
-.footer{
+footer{
     background-color: #153462;
-    margin-top: 50px;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
 }
 
 p{
