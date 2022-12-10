@@ -8,7 +8,7 @@ body{
     font-family: 'Sono', sans-serif;
     font-weight: 200;
     font-size: 100px;
-    margin: 0px 180px 20px;
+    
 }
 
 button{
@@ -36,14 +36,14 @@ button:hover{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 100px;
-    margin: 0px 0px 0px 350px;
+  
 }
 
 .clock{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 75px;
-    margin: 25px 0px 25px 490px;
+
 }
   
 .footer{
@@ -56,4 +56,9 @@ button:hover{
 p{
     color: aliceblue;
     margin-left: 600px;
+}
+
+.text{
+    text-align: center;
+    margin: 0px;
 }
