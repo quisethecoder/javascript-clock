@@ -8,7 +8,8 @@ body{
     font-family: 'Sono', sans-serif;
     font-weight: 200;
     font-size: 100px;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 button{
@@ -36,7 +37,7 @@ button:hover{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 100px;
-  
+    margin-top: 0px;
 }
 
 .clock{
@@ -60,5 +61,5 @@ p{
 
 .text{
     text-align: center;
-    margin: 0px;
+    
 }
