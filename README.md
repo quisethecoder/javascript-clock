@@ -1,0 +1,1 @@
+This is a Javascript clock that can switch between Military and Standard Time with the click of a button! I also added a Dark Mode in for fun! This website was created with HTML, CSS, and Javascript.
