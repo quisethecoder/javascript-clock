@@ -38,13 +38,15 @@ button:hover{
     font-family: 'Sono', sans-serif;
     font-size: 100px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .clock{
     color: #153462;
     font-family: 'Sono', sans-serif;
     font-size: 75px;
-
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
   
 .footer{

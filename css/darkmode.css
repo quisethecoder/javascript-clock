@@ -9,7 +9,8 @@ body{
     font-family: 'Sono', sans-serif;
     font-weight: 200;
     font-size: 100px;
-    margin: 0px 180px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 button{
@@ -37,14 +38,17 @@ button:hover{
     color: #BAD1C2;
     font-family: 'Sono', sans-serif;
     font-size: 100px;
-    margin: 0px 0px 0px 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 
 .clock{
     color: #BAD1C2;
     font-family: 'Sono', sans-serif;
     font-size: 75px;
-    margin: 25px 0px 25px 490px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
   
 .footer{
@@ -58,4 +62,9 @@ button:hover{
 p{
     color: aliceblue;
     margin-left: 600px;
+}
+
+.text{
+    text-align: center;
+    
 }
