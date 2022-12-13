@@ -27,15 +27,15 @@ function twelvehour() {
   var m = dat.getMinutes()
   var s = dat.getSeconds()
   if (h >= 12) {
-    time.innerHTML = (h - 12) + ":" + m + ":" + s + "pm"
+    time.innerHTML = (h - 12) + ":" + m + ":" + s + "PM"
   } else {
-    time.innerHTML = h + ":" + m + ":" + s
+    time.innerHTML = h + ":" + m + ":" + s + "AM"
   }
 }
 
 function tfourhour() {
   var dat1 = new Date();
-   
+ 
   var h1 = dat1.getHours()
   var m1 = dat1.getMinutes()
   var s1 = dat1.getSeconds()
