@@ -20,8 +20,13 @@ button{
     font-size: 40px;
     background-color: #4FA095;
     border-radius: 28px;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 500px 0px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    line-height: 75px;
 }
 
 button:hover{
@@ -51,18 +56,6 @@ button:hover{
     margin-bottom: 20px;
 }
   
-.footer{
-    background-color: #222f5a;
-    margin-top: 50px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    
-}
-
-p{
-    color: aliceblue;
-    margin-left: 600px;
-}
 
 .text{
     text-align: center;

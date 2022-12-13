@@ -5,15 +5,7 @@ body{
     padding: 0px;
 }
 
-.container{
-    min-height: 100%;
-}
 
-.main{
-    overflow: auto;
-    padding-bottom: 300px;
-    
-}
 
  h1{
     color: #153462;
@@ -31,8 +23,15 @@ button{
     font-size: 40px;
     background-color: #F6F6C9;
     border-radius: 28px;
-    
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    line-height: 75px;
 }
+
 
 button:hover{
     transform: rotateX(15deg);
@@ -62,18 +61,7 @@ button:hover{
     margin-bottom: 20px;
 }
   
-footer{
-    background-color: #153462;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
-    clear: both;
-}
 
-p{
-    color: aliceblue;
-    margin-left: 600px;
-}
 
 .text{
     text-align: center;
