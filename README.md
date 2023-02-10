@@ -1,4 +1,4 @@
-Multi-Digital Clock
+# Multi-Digital Clock
 
 Summary: This is a Javascript clock that can switch between Military and Standard Time with the click of a button! I also added a Dark Mode in for fun!
 
